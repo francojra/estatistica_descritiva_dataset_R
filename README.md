@@ -1,1 +1,1 @@
-# estatistica_descritiva_dataset_R
+# Estatística descritiva com dataset do R
