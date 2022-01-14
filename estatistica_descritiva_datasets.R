@@ -22,3 +22,19 @@ sd(dados$temp) # desvio-padrão
 median(dados$temp) # mediana
 max(dados$temp) # temperatura máxima
 min(dados$temp) # temperatura mínima
+
+library(dplyr) # Pacote usado para análises descritivas
+
+d <- dados %>% 
+  select(day, temp) %>%
+  filter(day == "346") # Filtrar dados para o dia '346'
+d
+
+mean(d$temp)
+
+d1 <- dados %>% 
+  select(day, temp) %>%
+  filter(day == "347") # Filtrar dados para o dia '346'
+d1
+
+mean(d1$temp)
