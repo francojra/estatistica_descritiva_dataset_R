@@ -8,7 +8,7 @@
 dados <- datasets::beaver1
 dados
 
-# Sobre os dados ---------------------------------------------------------------------------------------------------------------------------
+# Sobre os dados carregados ---------------------------------------------------------------------------------------------------------------------------
 
 ### Descrição de uma pequena parte do estudo de longo prazo das dinâmicas de temperaturas de roedores
 ### (Castor canadensis) no norte central de Wisconsin. 
